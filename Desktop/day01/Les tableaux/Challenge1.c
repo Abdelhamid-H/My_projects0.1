@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int tab[3] = {1,2,3};
+    int tab[5] = {1,2,3,4,5};
   
-    for(int i=0;i<3;i++){
+    for(int i=0;i<5;i++){
         
       printf("%d",tab[i]);
     }
