@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int i, t_value, tie, e;
+  int i, t_value, tie;
     printf("Saisire la taille de tableau: ");
     scanf("%d", &tie);
 
