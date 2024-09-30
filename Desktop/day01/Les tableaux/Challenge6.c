@@ -2,10 +2,13 @@
 
 int main() {
  int i, t_value, tie, mu=1, fm;
+ 
+     //fm =  facteur de multiplication.
+     
     printf("Saisire la taille de tableau: ");
     scanf("%d", &tie);
     
-    printf("Saisire le facteure de multiplication :");
+   printf("Saisire le facteure de multiplication :");
     scanf("%d", &fm);
  int t_tab[tie];
     for( i = 0 ; i < tie ; i++){
@@ -13,7 +16,8 @@ int main() {
         scanf("%d",&t_tab[i]);
         
          mu = fm * t_tab[i];
-         printf("multiplication %d X %d = %d\n",t_tab[i], fm, mu);
+        printf("multiplication %d X %d = %d\n",t_tab[i], fm, mu);
     }
+    
      return 0;
 }
