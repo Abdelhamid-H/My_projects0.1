@@ -2,7 +2,7 @@
 
 int main() {
     float c;
-    printf(" Entrer la température en Celsius :");
+ printf(" Entrer la température en Celsius :");
     scanf("%f" ,&c);
     if (c < 0)
     printf("Solide");

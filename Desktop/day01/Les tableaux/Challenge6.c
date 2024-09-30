@@ -8,7 +8,7 @@ int main() {
     printf("Saisire la taille de tableau: ");
     scanf("%d", &tie);
     
-   printf("Saisire le facteure de multiplication :");
+    printf("Saisire le facteure de multiplication :");
     scanf("%d", &fm);
  int t_tab[tie];
     for( i = 0 ; i < tie ; i++){
