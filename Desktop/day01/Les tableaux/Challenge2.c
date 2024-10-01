@@ -10,7 +10,7 @@ int main() {
         printf("Elément %d : ", i+1);
         scanf("%d",&t_tab[i]);
   }
-     for( i = 0 ; i < tie ; i++){
+    for( i = 0 ; i < tie ; i++){
         printf("%d ",t_tab[i]);
 }
  

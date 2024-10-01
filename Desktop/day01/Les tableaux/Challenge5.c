@@ -11,12 +11,14 @@ int main() {
       scanf("%d",&t_tab[i]);
   }
    min = t_tab[0];
-            for(int i = 0; i < tie; i++){
-                if (t_tab[i]<min){
-                min = t_tab[i];    
-                }
 
-            }
+  for(int i = 0; i < tie; i++){
+    if (t_tab[i]<min){
+        min = t_tab[i];    
+     }
+
+  }
             printf("Le plus petit nombre c'est : %d ", min);
+            
     return 0;
 }

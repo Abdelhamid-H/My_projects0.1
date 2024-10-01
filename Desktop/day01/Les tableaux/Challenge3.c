@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
- int i, t_value, tie, sum=0 ;
-    printf("Saisire la taille de tableau: ");
-    scanf("%d", &tie);
+  int i, t_value, tie, sum=0 ;
+     printf("Saisire la taille de tableau: ");
+     scanf("%d", &tie);
     
 int t_tab[tie];
     for( i = 0 ; i < tie ; i++){
@@ -12,6 +12,7 @@ int t_tab[tie];
          sum = sum + t_tab[i];
     }
    
-    printf("la somme des éléments de tableau est %d",sum);
-    return 0;
+     printf("la somme des éléments de tableau est %d",sum);
+     
+ return 0;
 }
