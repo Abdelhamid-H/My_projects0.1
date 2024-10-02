@@ -1,17 +1,20 @@
 #include <stdio.h>
-int max( int a, int b){
-  if (a > b){
+int max(int a, int b)
+{
+  if (a > b)
+  {
     return a;
   }
-  else {
+  else
+  {
     return b;
   }
-
 }
-int main(){
-    int grand;
-    grand = max(100,150);
-    printf("%d",grand);
-    
-    return 0;
+int main()
+{
+  int grand;
+  grand = max(100, 150);
+  printf("%d", grand);
+
+  return 0;
 }
