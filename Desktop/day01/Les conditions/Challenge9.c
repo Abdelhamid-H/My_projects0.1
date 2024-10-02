@@ -1,20 +1,26 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     char car;
 
     printf("Saisire un caractère : ");
-    scanf(" %c", &car);  
+    scanf(" %c", &car);
 
-    
-    if ((car >= 'a' && car <= 'z') || (car >= 'A' && car <= 'Z')) {
-        
-        if (car >= 'a' && car <= 'z') {
+    if ((car >= 'a' && car <= 'z') || (car >= 'A' && car <= 'Z'))
+    {
+
+        if (car >= 'a' && car <= 'z')
+        {
             printf("'%c' est une lettre minuscule.\n", car);
-        } else {
+        }
+        else
+        {
             printf("'%c' est une lettre majuscule.\n", car);
         }
-    } else {
+    }
+    else
+    {
         printf("'%c' n'est pas une lettre de l'alphabet.\n", car);
     }
 
