@@ -101,6 +101,7 @@ void supp_reser()
             {
                 reservations[j] = reservations[j + 1];
             }
+            //un autre boucle déplace toutes les réservations suivantes d'une position vers la gauche pour écraser la réservation supprimée.
             nbrreserv--;
             printf("Réservation supprimée avec succès!\n");
             return;
@@ -241,7 +242,8 @@ int main()
             printf("4. Afficher les statistiques.\n");
             printf("5. Tri par nom.\n");
             printf("6. Tri par statut.\n");
-            printf("7. Quitter.\n\n");
+            printf("7. modifier une reservation.\n");
+            printf("8. Quitter.\n\n");
             printf("Entrez votre choix: ");
             scanf("%d", &choix);
             switch (choix)
@@ -271,6 +273,10 @@ int main()
                 break;
 
             case 7:
+                modif_reser();
+                break;
+
+            case 8:
                 printf("\nAu revoir.\n");
                 break;
 
